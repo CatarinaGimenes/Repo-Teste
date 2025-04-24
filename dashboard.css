@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+
+.dash {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    position: relative;
+}
+
+.all {
+    position: absolute;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#resto {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+#KPIs {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+
+.kpi {
+    height: 150px;
+    width: 250px;
+    background-color: #fac16a;
+}
+
+#graficos div {
+    margin: 0;
+}
+
+#graficos {
+    width: 1058px;
+    position: relative;
+    margin-top: 15px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#graf-linha {
+    width: 1058px;
+    height: 234px;
+    background-color: white;
+}
+
+#graf-barra{
+    width: 1058px;
+    height: 234px;
+    background-color: white;
+}
+
+#alertas {
+    height: 650px;
+    width: 330px;
+    background-color: beige;
+}
