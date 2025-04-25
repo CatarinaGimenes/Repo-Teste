@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="chartJs.css">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="dashboard2.css">
     <title>Dashboard SoyTrack</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1"></script>
 </head>
 
 <body>
     <section class="dash">
-        <div class="all">
             <div id="titulo">
                 <h2>Dashboard</h2>
             </div>
@@ -25,11 +24,11 @@
                         <div class="kpi"></div>
                     </div>
                     <div id="graficos">
-                        <div id="graf-linha">
-                            <canvas id="graficoLinha" style="position: relative; height: 100%; width: 100%;"></canvas>
+                        <div class="graf">
+                            <canvas id="graficoLinha" style="position: relative; width: 100%; height: 100%;"></canvas>
                         </div>
-                        <div id="graf-barra">
-                            <canvas id="graficoBarra" style="position: relative; height: 100%; width: 100%;"></canvas>
+                        <div class="graf">
+                            <canvas id="graficoBarra" style="position: relative; width: 100%; height: 100%;"></canvas>
                         </div>
                     </div>
                 </div>
@@ -37,7 +36,6 @@
                     <div id="alertas"></div>
                 </div>
             </div>
-        </div>
     </section>
 </body>
 
